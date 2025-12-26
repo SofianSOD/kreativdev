@@ -179,9 +179,11 @@
                 class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-nusana-light rounded-lg font-semibold">Beranda</a>
             <a href="#services"
                 class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-nusana-light rounded-lg font-semibold">Layanan</a>
+            <a href="{{ route('pricing.index') }}"
+                class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-nusana-light rounded-lg font-semibold">Harga</a>
             <a href="#portfolio"
                 class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-nusana-light rounded-lg font-semibold">Portofolio</a>
-            <a href="#about"
+            <a href="{{ route('about.index') }}"
                 class="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-nusana-light rounded-lg font-semibold">Tentang
                 Kami</a>
             <a href="/blog"
